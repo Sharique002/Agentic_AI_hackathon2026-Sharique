@@ -101,6 +101,13 @@ npm run dev
 
 ## 🏗️ Architecture
 
+<p align="center">
+  <img src="docs/architecture.png" alt="CARE System Architecture" width="800" />
+</p>
+
+<details>
+<summary>📐 Text-based architecture diagram (click to expand)</summary>
+
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │                        USER / TICKET INPUT                       │
@@ -179,6 +186,8 @@ npm run dev
 │  Decision Types: REFUND | REJECT | ESCALATE | REPLY | ASK | CANCEL│
 └──────────────────────────────────────────────────────────────────┘
 ```
+
+</details>
 
 ---
 
@@ -280,6 +289,7 @@ CARE-Agent/
 ├── demo.py                          # Interactive demo with formatted output
 ├── output_enhancement.py            # Output formatting and display
 ├── requirements.txt                 # Dependencies (stdlib only)
+├── demo_link.txt                    # Demo instructions and recording reference
 │
 ├── agent/
 │   ├── brain.py                     # ReAct-style agent with retry logic
@@ -309,22 +319,24 @@ CARE-Agent/
 │   ├── products.json                # Product catalog with policies
 │   └── knowledge-base.md            # Full business policy documentation
 │
-├── logs/
-│   ├── audit_log.jsonl              # Structured audit trail
-│   └── failed_cases_log.json        # Failure tracking
-│
 ├── frontend/                        # Next.js 15 premium UI
 │   ├── app/
 │   │   ├── page.tsx                 # Main CARE interface
 │   │   ├── layout.tsx               # App layout with immersive background
 │   │   └── globals.css              # Design system (glassmorphism, gradients)
+│   ├── components/                  # UI components (ChatInput, DecisionView, etc.)
+│   ├── lib/
+│   │   └── api.ts                   # Backend API integration layer
 │   └── ...
 │
 ├── docs/
+│   ├── architecture.png             # System architecture diagram (visual)
 │   ├── architecture.md              # System architecture documentation
-│   ├── failure_modes.md             # Failure analysis and safety documentation
-│   ├── demo_script.md               # 3-5 minute demo script
+│   ├── failure_modes.md             # Failure analysis and safety documentation (5 modes)
+│   ├── audit_log.json               # Full 20-ticket audit log
 │   ├── audit_log_sample.json        # Annotated audit log example
+│   ├── demo_script.md               # 3-5 minute demo script
+│   ├── demo_frontend.webp           # Recorded frontend demo
 │   └── submission_answer.txt        # Hackathon challenge response
 │
 └── checklist.md                     # Submission compliance checklist

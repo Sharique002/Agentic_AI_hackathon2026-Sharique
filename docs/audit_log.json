@@ -1,0 +1,2090 @@
+[
+  {
+    "timestamp": "2026-04-19T00:43:20.326356",
+    "category": "SYSTEM",
+    "message": "Starting CARE Agent",
+    "context": {
+      "status": "initialized"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.326356",
+    "category": "SYSTEM",
+    "message": "Running in predefined tickets mode",
+    "context": {}
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.327866",
+    "category": "SYSTEM",
+    "message": "Loaded 20 tickets",
+    "context": {
+      "count": 20
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.327866",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-001",
+      "issue": "defective"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.332776",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-002",
+      "issue": "change_of_mind"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.332776",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-003",
+      "issue": "defective"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.332776",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-004",
+      "issue": "wrong_item"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.333693",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-005",
+      "issue": "change_of_mind"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.334200",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-006",
+      "issue": "cancellation"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.334200",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-007",
+      "issue": "change_of_mind"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.334200",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-008",
+      "issue": "damaged"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.335715",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-009",
+      "issue": "refund_status"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.337042",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-010",
+      "issue": "shipping_inquiry"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.338047",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-011",
+      "issue": "wrong_item"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.338047",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-012",
+      "issue": "cancellation"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.339469",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-013",
+      "issue": "change_of_mind"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.340017",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-014",
+      "issue": "inquiry"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.340017",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-015",
+      "issue": "damaged"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.340544",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-016",
+      "issue": "refund"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.340544",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-017",
+      "issue": "refund"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.341122",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-018",
+      "issue": "refund"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.341122",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-019",
+      "issue": "inquiry"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.342172",
+    "category": "TICKET",
+    "message": "Starting processing",
+    "context": {
+      "ticket_id": "TKT-020",
+      "issue": "other"
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.342172",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.343188",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.343188",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.343188",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.343188",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.343188",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.344700",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.344700",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.344700",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.344700",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.344700",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.346026",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.346026",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.346026",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.347039",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.348052",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.348052",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.348052",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.348052",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "inquiry",
+    "factors": {
+      "issue_type": "inquiry",
+      "customer_tier": "premium",
+      "product_returnable": null,
+      "product_warranty": null,
+      "return_window_days": null
+    },
+    "decision_logic": "Your question answered with policy details to guide your decision."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.349052",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "reply",
+      "confidence": 0.9,
+      "policy": "knowledge_base_inquiry",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.349052",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.350247",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "other",
+    "factors": {
+      "issue_type": "other",
+      "customer_tier": "standard",
+      "product_returnable": null,
+      "product_warranty": null,
+      "return_window_days": null
+    },
+    "decision_logic": "Order ID required. Please provide your order ID."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.350247",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "ask",
+      "confidence": 0.85,
+      "policy": "order_validation",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.350247",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.350247",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.351259",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.351259",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.352278",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.352278",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.352278",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.353273",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.353273",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.354753",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.356322",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.357317",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.357828",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.358843",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.358843",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.358843",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.360354",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "reply",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.360887",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-019",
+    "customer_tier": "premium",
+    "tools_used": [
+      "get_customer"
+    ],
+    "policy_applied": "knowledge_base_inquiry",
+    "decision": "reply",
+    "confidence": 0.9,
+    "rationale": "Your question answered with policy details to guide your decision.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.360887",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-019",
+    "processing_time_ms": 19,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 1,
+      "iterations": 1,
+      "decision_confidence": 0.9,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.361903",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "ask",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.361903",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-020",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer"
+    ],
+    "policy_applied": "order_validation",
+    "decision": "ask",
+    "confidence": 0.85,
+    "rationale": "Order ID required. Please provide your order ID.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.361903",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-020",
+    "processing_time_ms": 19,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 1,
+      "iterations": 1,
+      "decision_confidence": 0.85,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.361903",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.361903",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "defective",
+    "factors": {
+      "issue_type": "defective",
+      "customer_tier": "vip",
+      "product_returnable": true,
+      "product_warranty": 12,
+      "return_window_days": 30
+    },
+    "decision_logic": "Defect claim outside return window. Warranty active - specialist review required."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.361903",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "escalate",
+      "confidence": 0.88,
+      "policy": "warranty_escalation_policy",
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.363412",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.363412",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "change_of_mind",
+    "factors": {
+      "issue_type": "change_of_mind",
+      "customer_tier": "standard",
+      "product_returnable": true,
+      "product_warranty": 12,
+      "return_window_days": 15
+    },
+    "decision_logic": "Return window expired 761 days ago. Standard policy does not permit returns."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.363412",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "reject",
+      "confidence": 0.88,
+      "policy": "return_policy",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.364425",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.364425",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "defective",
+    "factors": {
+      "issue_type": "defective",
+      "customer_tier": "premium",
+      "product_returnable": true,
+      "product_warranty": 0,
+      "return_window_days": 30
+    },
+    "decision_logic": "Please provide more details about your issue to help us resolve it."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.364425",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "ask_clarification",
+      "confidence": 0.65,
+      "policy": "standard_policy",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.364425",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.365423",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "wrong_item",
+    "factors": {
+      "issue_type": "wrong_item",
+      "customer_tier": "standard",
+      "product_returnable": true,
+      "product_warranty": 24,
+      "return_window_days": 30
+    },
+    "decision_logic": "Wrong item outside return window. Escalating for resolution options."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.365423",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "escalate",
+      "confidence": 0.82,
+      "policy": "return_policy",
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.365423",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.366439",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "change_of_mind",
+    "factors": {
+      "issue_type": "change_of_mind",
+      "customer_tier": "vip",
+      "product_returnable": true,
+      "product_warranty": 12,
+      "return_window_days": 30
+    },
+    "decision_logic": "VIP customer with pre-approved extended return exception. Refund approved."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.366439",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "refund",
+      "confidence": 0.9,
+      "policy": "vip_override_policy",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.367431",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.367431",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "cancellation",
+    "factors": {
+      "issue_type": "cancellation",
+      "customer_tier": "standard",
+      "product_returnable": true,
+      "product_warranty": 12,
+      "return_window_days": 30
+    },
+    "decision_logic": "Order cancelled. Full refund will process in 5-7 business days."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.367431",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "cancel",
+      "confidence": 0.95,
+      "policy": "return_policy",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.368818",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.369356",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "change_of_mind",
+    "factors": {
+      "issue_type": "change_of_mind",
+      "customer_tier": "premium",
+      "product_returnable": true,
+      "product_warranty": 6,
+      "return_window_days": 60
+    },
+    "decision_logic": "Return window expired. Premium customer - escalating for supervisor review."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.369903",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "escalate",
+      "confidence": 0.75,
+      "policy": "return_policy",
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.371483",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.372009",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "damaged",
+    "factors": {
+      "issue_type": "damaged",
+      "customer_tier": "standard",
+      "product_returnable": true,
+      "product_warranty": 0,
+      "return_window_days": 30
+    },
+    "decision_logic": "Item arrived damaged. Full refund approved immediately without return required."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.373032",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "refund",
+      "confidence": 0.95,
+      "policy": "damaged_item_policy",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.373032",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.374030",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "refund_status",
+    "factors": {
+      "issue_type": "refund_status",
+      "customer_tier": "premium",
+      "product_returnable": true,
+      "product_warranty": 12,
+      "return_window_days": 30
+    },
+    "decision_logic": "Refund confirmed. Your refund will appear in 5-7 business days."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.374030",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "reply",
+      "confidence": 0.95,
+      "policy": "return_policy",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.374030",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.374030",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "shipping_inquiry",
+    "factors": {
+      "issue_type": "shipping_inquiry",
+      "customer_tier": "standard",
+      "product_returnable": true,
+      "product_warranty": 0,
+      "return_window_days": 30
+    },
+    "decision_logic": "Your question answered with policy details to guide your decision."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.375537",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "reply",
+      "confidence": 0.9,
+      "policy": "knowledge_base_inquiry",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.375537",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.375537",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "wrong_item",
+    "factors": {
+      "issue_type": "wrong_item",
+      "customer_tier": "vip",
+      "product_returnable": true,
+      "product_warranty": 12,
+      "return_window_days": 15
+    },
+    "decision_logic": "Wrong item outside return window. Escalating for resolution options."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.376549",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "escalate",
+      "confidence": 0.82,
+      "policy": "return_policy",
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.376549",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.376549",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "cancellation",
+    "factors": {
+      "issue_type": "cancellation",
+      "customer_tier": "premium",
+      "product_returnable": true,
+      "product_warranty": 24,
+      "return_window_days": 30
+    },
+    "decision_logic": "Order cancelled. Full refund will process in 5-7 business days."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.376549",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "cancel",
+      "confidence": 0.95,
+      "policy": "return_policy",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.378064",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.379084",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "change_of_mind",
+    "factors": {
+      "issue_type": "change_of_mind",
+      "customer_tier": "premium",
+      "product_returnable": true,
+      "product_warranty": 12,
+      "return_window_days": 30
+    },
+    "decision_logic": "Return window expired. Premium customer - escalating for supervisor review."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.379084",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "escalate",
+      "confidence": 0.75,
+      "policy": "return_policy",
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.379084",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.380086",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "inquiry",
+    "factors": {
+      "issue_type": "inquiry",
+      "customer_tier": "standard",
+      "product_returnable": true,
+      "product_warranty": 12,
+      "return_window_days": 15
+    },
+    "decision_logic": "Your question answered with policy details to guide your decision."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.380086",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "reply",
+      "confidence": 0.9,
+      "policy": "knowledge_base_inquiry",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.380086",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.381305",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "damaged",
+    "factors": {
+      "issue_type": "damaged",
+      "customer_tier": "vip",
+      "product_returnable": true,
+      "product_warranty": 0,
+      "return_window_days": 30
+    },
+    "decision_logic": "Item arrived damaged. Full refund approved immediately without return required."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.381305",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "refund",
+      "confidence": 0.95,
+      "policy": "damaged_item_policy",
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.381852",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "product",
+    "status": "success",
+    "result": {
+      "data_present": true
+    },
+    "error": null,
+    "retry_count": 0
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.381852",
+    "category": "REASONING",
+    "ticket_id": null,
+    "issue_type": "refund",
+    "factors": {
+      "issue_type": "refund",
+      "customer_tier": "standard",
+      "product_returnable": true,
+      "product_warranty": 12,
+      "return_window_days": 15
+    },
+    "decision_logic": "Social engineering or fraud indicators detected (score: 0.55). Escalating for review."
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.381852",
+    "category": "REASONING",
+    "message": "Decision made",
+    "context": {
+      "ticket_id": null,
+      "decision": "escalate",
+      "confidence": 0.95,
+      "policy": "fraud_detection_policy",
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.381852",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "escalate",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.383391",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-001",
+    "customer_tier": "vip",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "warranty_escalation_policy",
+    "decision": "escalate",
+    "confidence": 0.88,
+    "rationale": "Defect claim outside return window. Warranty active - specialist review required.",
+    "estimated_impact": {},
+    "escalated": true,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.383391",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-001",
+    "processing_time_ms": 55,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.88,
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.384409",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "reject",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.384409",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-002",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "return_policy",
+    "decision": "reject",
+    "confidence": 0.88,
+    "rationale": "Return window expired 761 days ago. Standard policy does not permit returns.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.385929",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-002",
+    "processing_time_ms": 51,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.88,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.385929",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "ask_clarification",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.385929",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-003",
+    "customer_tier": "premium",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "standard_policy",
+    "decision": "ask_clarification",
+    "confidence": 0.65,
+    "rationale": "Please provide more details about your issue to help us resolve it.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.387057",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-003",
+    "processing_time_ms": 53,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.65,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.387057",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "escalate",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.387057",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-004",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "return_policy",
+    "decision": "escalate",
+    "confidence": 0.82,
+    "rationale": "Wrong item outside return window. Escalating for resolution options.",
+    "estimated_impact": {},
+    "escalated": true,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.387057",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-004",
+    "processing_time_ms": 54,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.82,
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.387057",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "refund",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.388575",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-005",
+    "customer_tier": "vip",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "vip_override_policy",
+    "decision": "refund",
+    "confidence": 0.9,
+    "rationale": "VIP customer with pre-approved extended return exception. Refund approved.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.388575",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-005",
+    "processing_time_ms": 54,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.9,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.388575",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "cancel",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.388575",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-006",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "return_policy",
+    "decision": "cancel",
+    "confidence": 0.95,
+    "rationale": "Order cancelled. Full refund will process in 5-7 business days.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.388575",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-006",
+    "processing_time_ms": 54,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.95,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.389587",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "escalate",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.389587",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-007",
+    "customer_tier": "premium",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "return_policy",
+    "decision": "escalate",
+    "confidence": 0.75,
+    "rationale": "Return window expired. Premium customer - escalating for supervisor review.",
+    "estimated_impact": {},
+    "escalated": true,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.390106",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-007",
+    "processing_time_ms": 55,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.75,
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.390106",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "refund",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.390106",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-008",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "damaged_item_policy",
+    "decision": "refund",
+    "confidence": 0.95,
+    "rationale": "Item arrived damaged. Full refund approved immediately without return required.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.390106",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-008",
+    "processing_time_ms": 55,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.95,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.391126",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "reply",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.391126",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-009",
+    "customer_tier": "premium",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "return_policy",
+    "decision": "reply",
+    "confidence": 0.95,
+    "rationale": "Refund confirmed. Your refund will appear in 5-7 business days.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.391126",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-009",
+    "processing_time_ms": 55,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.95,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.392341",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "reply",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.392341",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-010",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "knowledge_base_inquiry",
+    "decision": "reply",
+    "confidence": 0.9,
+    "rationale": "Your question answered with policy details to guide your decision.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.392341",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-010",
+    "processing_time_ms": 55,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.9,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.393353",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "escalate",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.393353",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-011",
+    "customer_tier": "vip",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "return_policy",
+    "decision": "escalate",
+    "confidence": 0.82,
+    "rationale": "Wrong item outside return window. Escalating for resolution options.",
+    "estimated_impact": {},
+    "escalated": true,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.394345",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-011",
+    "processing_time_ms": 55,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.82,
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.394345",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "cancel",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.394345",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-012",
+    "customer_tier": "premium",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "return_policy",
+    "decision": "cancel",
+    "confidence": 0.95,
+    "rationale": "Order cancelled. Full refund will process in 5-7 business days.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.394345",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-012",
+    "processing_time_ms": 56,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.95,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.394345",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "escalate",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.395723",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-013",
+    "customer_tier": "premium",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "return_policy",
+    "decision": "escalate",
+    "confidence": 0.75,
+    "rationale": "Return window expired. Premium customer - escalating for supervisor review.",
+    "estimated_impact": {},
+    "escalated": true,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.395723",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-013",
+    "processing_time_ms": 56,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.75,
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.395723",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "reply",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.395723",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-014",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "knowledge_base_inquiry",
+    "decision": "reply",
+    "confidence": 0.9,
+    "rationale": "Your question answered with policy details to guide your decision.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.395723",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-014",
+    "processing_time_ms": 55,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.9,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.395723",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "refund",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.395723",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-015",
+    "customer_tier": "vip",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "damaged_item_policy",
+    "decision": "refund",
+    "confidence": 0.95,
+    "rationale": "Item arrived damaged. Full refund approved immediately without return required.",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.397236",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-015",
+    "processing_time_ms": 55,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.95,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.397236",
+    "category": "ACTION",
+    "message": "Action executed",
+    "context": {
+      "ticket_id": null,
+      "action": "escalate",
+      "success": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.398256",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-018",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "fraud_detection_policy",
+    "decision": "escalate",
+    "confidence": 0.95,
+    "rationale": "Social engineering or fraud indicators detected (score: 0.55). Escalating for review.",
+    "estimated_impact": {},
+    "escalated": true,
+    "fraud_detected": true
+  },
+  {
+    "timestamp": "2026-04-19T00:43:20.398256",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-018",
+    "processing_time_ms": 57,
+    "status": "completed",
+    "metrics": {
+      "tools_called": 3,
+      "iterations": 1,
+      "decision_confidence": 0.95,
+      "escalated": true
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:21.374600",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "customer",
+    "status": "not_found",
+    "result": {},
+    "error": "Data not found: unknown.user@email.com",
+    "retry_count": 2
+  },
+  {
+    "timestamp": "2026-04-19T00:43:21.376590",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-016",
+    "processing_time_ms": 1036,
+    "status": "failed",
+    "metrics": {
+      "tools_called": 0,
+      "iterations": 1,
+      "decision_confidence": 0.0,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:21.378600",
+    "category": "TOOL_CALL",
+    "ticket_id": "unknown",
+    "tool_name": "order",
+    "status": "not_found",
+    "result": {},
+    "error": "Data not found: ORD-9999",
+    "retry_count": 2
+  },
+  {
+    "timestamp": "2026-04-19T00:43:21.379588",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-017",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer"
+    ],
+    "policy_applied": "unknown",
+    "decision": "escalate",
+    "confidence": 0.0,
+    "rationale": "Unknown reason",
+    "estimated_impact": {},
+    "escalated": false,
+    "fraud_detected": false
+  },
+  {
+    "timestamp": "2026-04-19T00:43:21.380586",
+    "category": "SUMMARY",
+    "ticket_id": "TKT-017",
+    "processing_time_ms": 1039,
+    "status": "failed",
+    "metrics": {
+      "tools_called": 1,
+      "iterations": 1,
+      "decision_confidence": 0.0,
+      "escalated": false
+    }
+  },
+  {
+    "timestamp": "2026-04-19T00:43:21.411213",
+    "category": "SYSTEM",
+    "message": "Processing complete",
+    "context": {
+      "total": 20,
+      "successful": 18,
+      "failed": 2
+    }
+  }
+]

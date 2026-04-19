@@ -10,8 +10,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
@@ -35,7 +33,6 @@ env/
 *.swp
 *.swo
 *~
-.DS_Store
 
 # Logs and temporary files
 logs/
@@ -50,6 +47,13 @@ htmlcov/
 .env.local
 temp/
 tmp/
+
+# Node
+node_modules/
+.next/
+.pnp
+.pnp.*
+.yarn/*
 
 # OS
 .DS_Store

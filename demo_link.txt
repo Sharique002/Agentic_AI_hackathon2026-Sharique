@@ -1,0 +1,33 @@
+CARE — Customer Autonomous Resolution Engine
+==============================================
+
+DEMO
+----
+
+A recorded demo of the CARE frontend is included in this repository:
+
+  → docs/demo_frontend.webp (WebP animated recording of the Next.js UI)
+
+The demo shows:
+  1. The CARE frontend landing page with dark-themed glassmorphic UI
+  2. Submitting a natural language ticket: "My headphones stopped working after a week"
+  3. Real-time agent processing animation (reading message → pulling order history → applying policies)
+  4. High-confidence (88%) REFUND APPROVED decision with policy-backed reasoning
+  5. Detailed reasoning breakdown: customer tier, order inference, defect validation
+  6. Confidence score breakdown: Data Completeness, Policy Clarity, Risk Penalty, Inference Penalty
+
+HOW TO RUN LOCALLY
+------------------
+
+Backend (processes all 20 tickets):
+  python main.py
+
+Frontend (interactive UI):
+  cd frontend
+  npm install
+  npm run dev
+  # Open http://localhost:3000
+
+GITHUB REPOSITORY
+-----------------
+  https://github.com/Sharique002/Agentic_AI_hackathon2026-Sharique.git
