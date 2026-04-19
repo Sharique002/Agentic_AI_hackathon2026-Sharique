@@ -10,7 +10,8 @@
 | 4 | Audit log sample | ✅ Complete | `/docs/audit_log_sample.json` |
 | 5 | Demo script | ✅ Complete | `/docs/demo_script.md` |
 | 6 | Submission answer (biggest challenge) | ✅ Complete | `/docs/submission_answer.txt` |
-| 7 | This checklist | ✅ Complete | `/checklist.md` |
+| 7 | Demo video recording | ✅ Complete | `/docs/demo_frontend.webp` + [Google Drive](https://drive.google.com/file/d/1OZcGXvBYLxCbxUOLLwCz3UIyG0tzgc3e/view?usp=sharing) |
+| 8 | This checklist | ✅ Complete | `/checklist.md` |
 
 ---
 

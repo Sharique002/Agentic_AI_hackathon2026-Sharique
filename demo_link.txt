@@ -7,6 +7,7 @@ DEMO
 A recorded demo of the CARE frontend is included in this repository:
 
   → docs/demo_frontend.webp (WebP animated recording of the Next.js UI)
+  → Video Demo: https://drive.google.com/file/d/1OZcGXvBYLxCbxUOLLwCz3UIyG0tzgc3e/view?usp=sharing
 
 The demo shows:
   1. The CARE frontend landing page with dark-themed glassmorphic UI

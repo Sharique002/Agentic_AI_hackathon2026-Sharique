@@ -3,6 +3,8 @@
 > **Target audience:** Hackathon judges, technical evaluators
 > **Format:** Live terminal demo + frontend walkthrough
 > **Tone:** Confident, concise, technically precise
+> **Video Demo:** [Watch on Google Drive](https://drive.google.com/file/d/1OZcGXvBYLxCbxUOLLwCz3UIyG0tzgc3e/view?usp=sharing)
+> **Local recording:** [`docs/demo_frontend.webp`](demo_frontend.webp)
 
 ---
 

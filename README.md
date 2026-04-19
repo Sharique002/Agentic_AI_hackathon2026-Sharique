@@ -22,6 +22,22 @@
 
 ---
 
+## 🎬 Demo
+
+A recorded walkthrough of the CARE frontend is available:
+
+- 📹 **Video Demo:** [Watch on Google Drive](https://drive.google.com/file/d/1OZcGXvBYLxCbxUOLLwCz3UIyG0tzgc3e/view?usp=sharing)
+- 📎 **Local recording:** [`docs/demo_frontend.webp`](docs/demo_frontend.webp) (WebP animated recording of the Next.js UI)
+
+The demo shows:
+1. The CARE frontend landing page with dark-themed glassmorphic UI
+2. Submitting a natural language ticket: "My headphones stopped working after a week"
+3. Real-time agent processing animation (reading message → pulling order history → applying policies)
+4. High-confidence (88%) REFUND APPROVED decision with policy-backed reasoning
+5. Detailed reasoning breakdown and confidence score breakdown
+
+---
+
 ## 🔥 Problem Statement
 
 Customer support teams drown in repetitive tickets — refunds, cancellations, shipping inquiries — all of which follow well-defined policies. Human agents spend **70%+ of their time** on resolvable requests, leading to slower response times, inconsistent decisions, and wasted operational cost.
@@ -336,7 +352,7 @@ CARE-Agent/
 │   ├── audit_log.json               # Full 20-ticket audit log
 │   ├── audit_log_sample.json        # Annotated audit log example
 │   ├── demo_script.md               # 3-5 minute demo script
-│   ├── demo_frontend.webp           # Recorded frontend demo
+│   ├── demo_frontend.webp           # Recorded frontend demo (+ video: https://drive.google.com/file/d/1OZcGXvBYLxCbxUOLLwCz3UIyG0tzgc3e/view)
 │   └── submission_answer.txt        # Hackathon challenge response
 │
 └── checklist.md                     # Submission compliance checklist
