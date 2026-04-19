@@ -1,0 +1,10 @@
+# CARE Agent Dependencies
+# Python 3.8+
+
+# No external dependencies required - uses only Python standard library
+# json, asyncio, dataclasses, typing, pathlib, datetime, re, os, sys
+
+# Optional: for development and testing
+# pytest>=7.0
+# black>=22.0
+# flake8>=4.0

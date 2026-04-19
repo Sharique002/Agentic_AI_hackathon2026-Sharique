@@ -1,0 +1,90 @@
+[
+  {
+    "id": "P001",
+    "product_id": "P001",
+    "name": "Wireless Headphones",
+    "category": "electronics",
+    "returnable": true,
+    "return_window_days": 30,
+    "warranty_months": 12,
+    "price": 149.99,
+    "notes": ""
+  },
+  {
+    "id": "P002",
+    "product_id": "P002",
+    "name": "Coffee Maker",
+    "category": "appliances",
+    "returnable": true,
+    "return_window_days": 30,
+    "warranty_months": 24,
+    "price": 89.99,
+    "notes": ""
+  },
+  {
+    "id": "P003",
+    "product_id": "P003",
+    "name": "Running Shoes",
+    "category": "footwear",
+    "returnable": true,
+    "return_window_days": 30,
+    "warranty_months": 0,
+    "price": 129.99,
+    "notes": ""
+  },
+  {
+    "id": "P004",
+    "product_id": "P004",
+    "name": "Laptop Stand",
+    "category": "accessories",
+    "returnable": true,
+    "return_window_days": 60,
+    "warranty_months": 6,
+    "price": 39.99,
+    "notes": ""
+  },
+  {
+    "id": "P005",
+    "product_id": "P005",
+    "name": "Desk Lamp",
+    "category": "furniture",
+    "returnable": true,
+    "return_window_days": 30,
+    "warranty_months": 12,
+    "price": 59.99,
+    "notes": ""
+  },
+  {
+    "id": "P006",
+    "product_id": "P006",
+    "name": "Smart Watch",
+    "category": "electronics",
+    "returnable": true,
+    "return_window_days": 15,
+    "warranty_months": 12,
+    "price": 199.99,
+    "notes": ""
+  },
+  {
+    "id": "P007",
+    "product_id": "P007",
+    "name": "Phone Case",
+    "category": "accessories",
+    "returnable": true,
+    "return_window_days": 30,
+    "warranty_months": 0,
+    "price": 19.99,
+    "notes": "registered"
+  },
+  {
+    "id": "P008",
+    "product_id": "P008",
+    "name": "Wireless Mouse",
+    "category": "electronics",
+    "returnable": true,
+    "return_window_days": 30,
+    "warranty_months": 12,
+    "price": 49.99,
+    "notes": ""
+  }
+]

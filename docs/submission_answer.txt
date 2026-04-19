@@ -1,0 +1,40 @@
+BIGGEST CHALLENGE FACED
+========================
+
+The hardest problem we solved wasn't technical — it was designing a decision engine 
+that is simultaneously autonomous AND safe.
+
+In most AI systems, you pick one: either the system makes decisions autonomously 
+(fast, but risky), or it defers everything to humans (safe, but defeats the purpose). 
+CARE needed to do both — resolve clear-cut cases instantly while knowing exactly when 
+to stop and escalate.
+
+The specific challenge was building a priority-ordered policy chain that handles 
+conflicting signals correctly. For example:
+
+- A VIP customer with a pre-approved exception wants to return a product *after* the 
+  return window has expired AND the device has been registered online (making it 
+  non-returnable). Which policy wins?
+
+- A standard-tier customer claims to be a "premium member" and demands an "instant 
+  refund" — a policy that doesn't exist. The system needs to recognize this isn't 
+  just a misunderstanding; it's a social engineering attempt.
+
+- A defective product is reported outside the return window, but the warranty is 
+  still active. The system can't just refund (wrong policy) or reject (warranty 
+  covers it). It needs to escalate to the warranty team — a third path.
+
+Getting the priority ordering right required mapping every edge case in the knowledge 
+base to a deterministic decision tree, then testing all 20 tickets to ensure no 
+policy leaked into another's domain. The fraud detector alone went through multiple 
+iterations — initial versions either over-flagged legitimate complaints or missed 
+subtle tier-mismatch attacks.
+
+The breakthrough was treating the decision engine as a layered filter rather than a 
+classifier. Each policy check either returns a definitive decision (and exits the 
+chain) or passes through to the next layer. This gives us O(1) decision paths with 
+clear precedence, and it's trivially auditable because you can trace exactly which 
+layer caught each ticket.
+
+The result: 20/20 ticket coverage, zero false positives on fraud, and every decision 
+fully explainable — without a single LLM call.

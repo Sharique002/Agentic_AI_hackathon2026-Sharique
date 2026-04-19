@@ -1,0 +1,196 @@
+[
+  {
+    "_comment": "TICKET DECISION — Damaged item, automatic refund approved",
+    "timestamp": "2026-04-18T21:33:54.231526",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-008",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "damaged_item_policy",
+    "decision": "refund",
+    "confidence": 0.95,
+    "rationale": "Item arrived damaged. Full refund approved immediately without return required.",
+    "reasoning_steps": [
+      "Issue type: damaged",
+      "Damaged item detected - refund override applied"
+    ],
+    "estimated_impact": {
+      "refund_amount": 45.99,
+      "customer_retention_risk": "low"
+    },
+    "escalated": false,
+    "fraud_detected": false,
+    "processing_time_ms": 29
+  },
+  {
+    "_comment": "TICKET DECISION — Social engineering fraud detected, escalated",
+    "timestamp": "2026-04-18T21:33:54.244496",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-018",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "fraud_detection_policy",
+    "decision": "escalate",
+    "confidence": 0.95,
+    "rationale": "Social engineering or fraud indicators detected (score: 0.55). Escalating for review.",
+    "reasoning_steps": [
+      "Issue type: refund",
+      "Fraud score: 0.55",
+      "Standard customer claiming premium status",
+      "Instant refund claim — no such policy exists",
+      "Fraud/social engineering detected - escalating"
+    ],
+    "estimated_impact": {
+      "fraud_risk": "high",
+      "refund_blocked": true
+    },
+    "escalated": true,
+    "fraud_detected": true,
+    "fraud_score": 0.55,
+    "processing_time_ms": 31
+  },
+  {
+    "_comment": "TICKET DECISION — VIP customer with pre-approved exception",
+    "timestamp": "2026-04-18T21:33:54.238479",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-005",
+    "customer_tier": "vip",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "vip_override_policy",
+    "decision": "refund",
+    "confidence": 0.90,
+    "rationale": "VIP customer with pre-approved extended return exception. Refund approved.",
+    "reasoning_steps": [
+      "Issue type: change_of_mind",
+      "Fraud score: 0.00",
+      "Order: ORD-1005 (delivered)",
+      "VIP customer with pre-approved exception"
+    ],
+    "estimated_impact": {
+      "refund_amount": 199.99,
+      "customer_lifetime_value": 12500.00
+    },
+    "escalated": false,
+    "fraud_detected": false,
+    "processing_time_ms": 28
+  },
+  {
+    "_comment": "TICKET DECISION — Order cancellation approved (still processing)",
+    "timestamp": "2026-04-18T21:33:54.239490",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-006",
+    "customer_tier": "standard",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "return_policy",
+    "decision": "cancel",
+    "confidence": 0.95,
+    "rationale": "Order cancelled. Full refund will process in 5-7 business days.",
+    "reasoning_steps": [
+      "Issue type: cancellation",
+      "Fraud score: 0.00",
+      "Order: ORD-1006 (processing)",
+      "Order still processing - cancellation approved"
+    ],
+    "estimated_impact": {
+      "refund_amount": 34.99,
+      "shipping_saved": true
+    },
+    "escalated": false,
+    "fraud_detected": false,
+    "processing_time_ms": 29
+  },
+  {
+    "_comment": "TICKET DECISION — Warranty claim outside return window, escalated to specialist",
+    "timestamp": "2026-04-18T21:33:54.236971",
+    "category": "TICKET_DECISION",
+    "ticket_id": "TKT-001",
+    "customer_tier": "vip",
+    "tools_used": [
+      "get_customer",
+      "get_order",
+      "get_product"
+    ],
+    "policy_applied": "warranty_escalation_policy",
+    "decision": "escalate",
+    "confidence": 0.88,
+    "rationale": "Defect claim outside return window. Warranty active - specialist review required.",
+    "reasoning_steps": [
+      "Issue type: defective",
+      "Fraud score: 0.00",
+      "Order: ORD-1001 (delivered)",
+      "Return window expired but warranty active",
+      "Warranty active — escalating to warranty team"
+    ],
+    "estimated_impact": {
+      "warranty_claim": true,
+      "specialist_review_required": true
+    },
+    "escalated": true,
+    "fraud_detected": false,
+    "processing_time_ms": 31
+  },
+  {
+    "_comment": "TOOL CALL — Retry failure for unknown customer",
+    "timestamp": "2026-04-18T21:33:55.247037",
+    "category": "TOOL_CALL",
+    "ticket_id": "TKT-016",
+    "tool_name": "customer",
+    "status": "not_found",
+    "result": {},
+    "error": "Data not found: unknown.user@email.com",
+    "retry_count": 2
+  },
+  {
+    "_comment": "REASONING — Decision logic trace for wrong item case",
+    "timestamp": "2026-04-18T21:33:54.229527",
+    "category": "REASONING",
+    "ticket_id": "TKT-004",
+    "issue_type": "wrong_item",
+    "factors": {
+      "issue_type": "wrong_item",
+      "customer_tier": "standard",
+      "product_returnable": true,
+      "product_warranty": 24,
+      "return_window_days": 30
+    },
+    "decision_logic": "Wrong item outside return window. Escalating for resolution options."
+  },
+  {
+    "_comment": "SUMMARY — Processing metrics for batch run",
+    "timestamp": "2026-04-18T21:33:55.250469",
+    "category": "SUMMARY",
+    "batch_results": {
+      "total_tickets": 20,
+      "successful": 20,
+      "failed": 0,
+      "decisions": {
+        "refund": 4,
+        "reject": 1,
+        "escalate": 8,
+        "reply": 4,
+        "ask": 1,
+        "cancel": 2
+      },
+      "avg_confidence": 0.88,
+      "avg_processing_time_ms": 32,
+      "fraud_flagged": 1,
+      "escalation_rate": 0.40
+    }
+  }
+]
